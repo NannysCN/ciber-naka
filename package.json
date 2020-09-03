@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Nuestro primer proyecto de NodeJs",
   "main": "index.html",
-  "scripts": {
+  "scripts":{
+    "dev": "lite-Server",	  
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,8 @@
   },
   "author": "Daniela Bastias",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/nannysice/ciber-naka#readme"
+  "homepage": "https://bitbucket.org/nannysice/ciber-naka#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
