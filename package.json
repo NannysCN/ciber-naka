@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Nuestro primer proyecto de NodeJs",
   "main": "index.html",
-  "scripts":{
-    "dev": "lite-Server",	  
+  "scripts": {
+    "dev": "lite-Server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,10 @@
   "homepage": "https://bitbucket.org/nannysice/ciber-naka#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
