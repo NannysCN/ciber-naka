@@ -36,21 +36,32 @@
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item active" aria-current="page">Inicio</li>
 				</ol>
-			</nav>	
+			</nav>
+				<div class="row">
+					<div class="col-sm-4" .>
+						<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#vernos" aria-expanded="false" aria-controls="multiCollapse1">¿Dónde podes vernos?</button>
+					</div>
+										<div class="col-sm-4" .>
+						<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#ayudar" aria-expanded="false" aria-controls="multiCollapse2">¿Cómo nos podes ayudar?</button>
+					</div>
+										<div class="col-sm-4" .>
+						<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mejorar" aria-expanded="false" aria-controls="multiCollapse3">¿Querés ayudarnos a mejorar?</button>
+					</div>
+			
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-4 collapse multi-collapse" id="vernos">
 					<p>
 						<h3>¿Donde podes Vernos?</h3>
 						<p>En Facebook, en YouTube, etc.</p>
 					</p>
 				</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 collapse multi-collapse" id="ayudar">
 					<p>
 						<h3>¿Como nos podes ayudar?</h3>
 						<p>Dando like, compartiendo</p>
 					</p>
 				</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 collapse multi-collapse" id="mejorar">
 					<p>
 						<h3>¿Queres Ayudarnos a Mejorar?</h3>
 						<p>Podes donarnos lo que puedas</p>
@@ -156,9 +167,10 @@
 	
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+<script src="node_modules/popper.js/dist/popper.min.js"></script>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>
