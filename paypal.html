@@ -101,18 +101,41 @@
 			 </div>
 			 </div>
 		
-		 <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">		
-			<div class="d-flex justify-content-center">
-			 <div class="card" style="width: 18rem;">
-			   <div class="card-header" style="background-color: blue; color: white">Tarjetas Aceptadas</div>
-			   <ul class="list-group list-group-flush">
-			     <li class="list-group-item">Tarjeta VISA</li>
-				 <li class="list-group-item">Tarjeta MASTERCARD</li>
-				 <li class="list-group-item">Tarjeta AMERICAN EXPRESS</li>
-			   </ul>
+		 <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+			<div class="accordion" id="accordionTarjetas">
+			  <div class="card">
+			    <div class="card-header" id="headingOne>
+			      <h5 class="mb-0">
+				    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseVisa" aria-expanded="true" aria-controls="collapseBasica"> TARJETA VISA</button>
+				  </h5>
+				</div>
+			<div id="collapseVisa" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+				<div class="card-body"> Podes Pagar hasta en 6 cuotas sin interes
+				</div>
 			 </div>
-			</div>
-			</div>
+		</div>
+					  <div class="card">
+			    <div class="card-header" id="headingTwo>
+			      <h5 class="mb-0">
+				    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseMastercard" aria-expanded="false" aria-controls="collapseMastercard"> TARJETA MASTERCARD</button>
+				  </h5>
+				</div>
+			<div id="collapseMastercard" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+				<div class="card-body"> Podes Pagar hasta en 3 cuotas sin interes
+				</div>
+			 </div>
+		</div>
+			  <div class="card">
+			    <div class="card-header" id="headingThree>
+			      <h5 class="mb-0">
+				    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseAmerican" aria-expanded="false" aria-controls="collapseAmerican"> TARJETA AMERICAN EXPRESS</button>
+				  </h5>
+				</div>
+			<div id="collapseAmerican" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+				<div class="card-body"> Podes Pagar hasta en 9 cuotas sin interes
+				</div>
+			 </div>
+		</div>
 		<div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios</div>	
 			</div>
 		</div>
